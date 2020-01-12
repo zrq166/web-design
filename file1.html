@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>celestial movement based on Newton's law of universal gravitation</title>
+    <script src="file1.js"></script>
+
+    <link rel="stylesheet" href="file1.css">
+</head>
+
+<body>
+<h1 align="center" style="color: darkblue">Celestial Movement Based on Newton's Law of Universal Gravitation</h1>
+<h4 align="center">Author: Runqing Zhou</h4>
+<h3 class="text">The problem of celestial movement seems to be out of reach, but their principles are actually very
+    close to our lives. We have heard of the story of Newton and Apple since childhood (even if it is fictitious). It
+    tells us the existence of gravity. In our life practice, we have found that if there is an object doing circular
+    motion, it must be provided with the centripetal force. The principles of gravity and circular motion constitute our
+    formula</h3>
+<div align="center">
+    <br>
+    <img src="img/formula1.png" width="150px" style="left: 400px"><br>
+    Formula 1: gravitation is equal to centripetal force
+</div>
+<br>
+<h3 class="text">
+    This formula can explain the simplified model of satellite motion around the planet. The left hand side is the
+    gravitation force between a central planet with mass “M” and a satellite with mass “m” if the distance between them
+    is “d”. You may just take “G” as a constant. The right hand side is the centripetal force. In our model, “m” is the
+    mass of a satellite, “v” is the tangential velocity of a satellite.
+</h3>
+<br>
+<h1 align="center" style="color: darkblue">Explore by yourself! Have fun!</h1><br>
+<h2 class="text" style="color: #00b6f4">
+    Visualization1: relationship between tangential velocity and orbital radius
+</h2>
+<h3 class="text">
+    You can move the sliders to choose the radius you want. Then you will find the tangential velocity decreases as the
+    increase of the orbital radius. The function between the tangential velocity and radius is shown on the right. The
+    small blue point on the function represents the current status of blue satellite.
+</h3>
+<h4 class="text" style="color: red">
+    Note: Here we use dimensionless values. One unit of tangential velocity corresponds to the tangential velocity at
+    radius equals 1 unit.
+</h4>
+<div align="center">
+    <br>
+    <img src="img/formula2.png" width="200px" style="left: 400px"><br>
+</div>
+<div style="height: 250px"></div>
+<div id="combine1">
+    <div id="planet">
+        <div id="red">
+            <div id="gray"></div>
+            <div id="blue"></div>
+        </div>
+    </div>
+    <br>
+    <div id="container">
+        <img id="function1" src="img/function1.JPG" alt="function1">
+        <div id="blue_point1"></div>
+        <p class="pointText">radius = </p>
+        <p id="radius1">3</p><br>
+        <p class="pointText"> tangential velocity = </p>
+        <p id="velo1">0.58</p>
+        <p style="position: absolute;left: 280px;top: 300px;width: 200px">radius</p>
+        <p style="position: absolute;left: -130px;top: -30px;width: 200px;transform: rotate(-90deg)">tangential
+            velocity</p>
+
+    </div>
+    <br><br><br><br><br><br><br><br>
+    <div id="slidertext1"><h4>radius:</h4></div>
+    <div id="slidermark1"><h5>1</h5></div>
+    <div id="slidermark2"><h5>2</h5></div>
+    <div id="slidermark3"><h5>3</h5></div>
+    <div id="slidermark4"><h5>4</h5></div>
+    <div id="slidermark5"><h5>5</h5></div>
+    <div id="slidermark6"><h5>6</h5></div>
+    <input id="myRange" type="range" min="1" max="6" value="3" step="1" class="myslider">
+
+</div>
+
+<div style="height: 500px"></div>
+
+<h2 class="text" style="color:#00b6f4;">Visualization2: For a certain radius, relationship between tangential velocity
+    and the mass of central
+    planet</h2>
+<h3 class="text">
+    You can first use the select box to choose a certain radius, and then use the slider to change the mass of the
+    central planet and observe the corresponding change of the tangential velocity of the satellite. The function
+    between the tangential velocity and mass of the central planet is shown on the right. The
+    small blue point on the function represents the current status of blue satellite. You may find the sqrt relationship
+    between tangential velocity and mass of the central planet.
+</h3>
+<h4 class="text" style="color: red">
+    Note: Here we use dimensionless values. One unit of tangential velocity corresponds to the tangential velocity at
+    mass equals 1 unit for the radius you choose.
+</h4>
+<div align="center">
+    <br>
+    <img src="img/formula3.png" width="200px" style="left: 400px"><br>
+</div>
+<div style="height: 300px"></div>
+<div id="combine2">
+    <div id="planet2">
+        <div id="red2">
+            <div id="gray2"></div>
+            <div id="blue2"></div>
+        </div>
+    </div>
+    <br>
+    <div id="container2">
+        <img id="function2" src="img/function2.png" alt="function2">
+        <div id="blue_point2"></div>
+        <div id="setinfo2">
+            <p class="pointText"> mass = </p>
+            <p id="mass">1</p><br>
+            <p class="pointText"> tangential velocity = </p>
+            <p id="velo2">1.00</p>
+        </div>
+        <p style="position: absolute;left: 280px;top: 200px;width: 200px">Mass of central planet</p>
+        <p style="position: absolute;left: -130px;top: -30px;width: 200px;transform: rotate(-90deg)">tangential
+            velocity</p>
+
+    </div>
+    <select id="selectbox">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+    </select>
+    <div>
+        <br><br><br><br><br><br><br><br>
+        <div id="boxtext1"><h4>radius:</h4></div>
+        <div id="slider2text1"><h4>mass:</h4></div>
+        <div id="slider2mark0"><h5>1</h5></div>
+        <div id="slider2mark1"><h5>2</h5></div>
+        <div id="slider2mark2"><h5>4</h5></div>
+        <div id="slider2mark3"><h5>6</h5></div>
+        <div id="slider2mark4"><h5>8</h5></div>
+        <div id="slider2mark5"><h5>10</h5></div>
+        <div id="slider2mark6"><h5>12</h5></div>
+        <div id="slider2mark7"><h5>14</h5></div>
+        <div id="slider2mark8"><h5>16</h5></div>
+        <input id="myRange2" type="range" min="1" max="16" value="1" step="1" class="myslider">
+    </div>
+</div>
+
+<div style="height: 450px"></div>
+<h2 class="text" style="color:#00b6f4;">Visualization3: The process of changing an orbit</h2>
+<h3 class="text">
+    For the final part, let's learn an interesting topic. In real situation, satellite needs to change an orbit to
+    perform various tasks. Now let's see a simplified version of changing orbit. <br>
+</h3>
+<h2 align="center">
+    Follow the directions and explore it!
+</h2>
+<div style="height: 250px"></div>
+<div id="combine3">
+    <div id="planet3">
+        <div id="red3">
+            <canvas id="myCanvas" width="200" height="100"></canvas>
+            <div id="graycircle1"></div>
+            <div id="graycircle2"></div>
+            <div id="blue3"></div>
+            <div id="arrow1"><h3>->>></h3></div>
+            <div id="arrow2"><h3><<<-</h3></div>
+            <div id="v3text1">
+                <h3>
+                    After first speed up, the orbit changes to an ellipse. The central planet is one of the focus of
+                    this ellipse orbit.
+                </h3>
+            </div>
+            <div id="v3text2">
+                <h3>
+                    We can see that the orbit has changed to a longer one.
+                </h3>
+            </div>
+        </div>
+    </div>
+
+    <input type="button" value="Step1: click here to speed up!" id="button1" class="button">
+    <input type="button"
+           value="Step2: wait the satellite moves to the opposite side, &#13;&#10;then click here to speed up again!"
+           id="button2" class="button">
+    <input type="button" value="reset" id="button3" class="button">
+    <canvas id="ruler"></canvas>
+</div>
+<div style="height: 400px"></div>
+<h3 class="text">
+    To change to a longer orbit, the satellite should first speed up. Then the orbit will be changed into an
+    ellipse. The satellite will move along the ellipse orbit. During that process, the satellite's tangential
+    velocity will gradually decrease. When the satellite moves to the opposite position of first speed-up position, the
+    satellite should be speeded up again to maintain a circular motion. Besides, the velocity and radius of a satellite
+    in stable circular motion should satisfy our formula in visualization1.
+</h3>
+<div style="height: 500px"></div>
+</body>
+
+</html>

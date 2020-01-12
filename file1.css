@@ -1,0 +1,455 @@
+body {
+    background: url("img/pencil5.png") no-repeat fixed left;
+}
+
+.text {
+    display: block;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#red {
+    position: absolute;
+    left: 400px;
+    width: 50px;
+    height: 50px;
+    background: #e05555;
+    border-radius: 50%;
+}
+
+#gray {
+    position: absolute;
+    border: 3px dashed cornflowerblue;
+    opacity: 0.3;
+    border-radius: 50%;
+}
+
+#blue {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #5b77c6;
+    border-radius: 50%;
+}
+
+
+#container {
+    position: absolute;
+    left: 800px;
+    top: -150px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid lightgrey
+}
+
+#function1 {
+    position: absolute;
+    top: -6px;
+    left: -5px;
+    width: 315px;
+    height: 320px;
+
+}
+
+#blue_point1 {
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    width: 10px;
+    height: 10px;
+    background: #668de7;
+    border-radius: 50%;
+}
+
+#radius1 {
+    position: absolute;
+    left: 265px;
+    width: 40px;
+    border: 2px ridge white;
+    border-radius: 3px;
+}
+
+#velo1 {
+    position: absolute;
+    left: 355px;
+    width: 50px;
+    border: 2px ridge white;
+    border-radius: 3px;
+}
+
+.pointText {
+    position: absolute;
+    left: 200px;
+    width: 150px;
+}
+
+.myslider {
+    position: absolute;
+    -webkit-appearance: none;
+    background: #bacdef;
+    left: 600px;
+    top: 330px;
+    width: 180px;
+    height: 6px;
+    opacity: 0.8;
+    border: 2px ridge #5562ab;
+    border-radius: 3px;
+}
+
+
+.myslider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    cursor: pointer;
+    background: #1f1f1f;
+    width: 10px;
+    height: 18px;
+    border-radius: 2px;
+}
+
+
+.myslider:hover {
+    opacity: 1;
+}
+
+#slidertext1 {
+    position: absolute;
+    left: 540px;
+    top: 303px;
+}
+
+#slidermark1 {
+    position: absolute;
+    left: 600px;
+    top: 325px;
+}
+
+#slidermark2 {
+    position: absolute;
+    left: 636px;
+    top: 325px;
+}
+
+#slidermark3 {
+    position: absolute;
+    left: 672px;
+    top: 325px;
+}
+
+#slidermark4 {
+    position: absolute;
+    left: 708px;
+    top: 325px;
+}
+
+#slidermark5 {
+    position: absolute;
+    left: 744px;
+    top: 325px;
+}
+
+#slidermark6 {
+    position: absolute;
+    left: 780px;
+    top: 325px;
+}
+
+#combine1 {
+    position: absolute;
+}
+
+#combine2 {
+    position: absolute;
+}
+
+#red2 {
+    position: absolute;
+    left: 400px;
+    width: 50px;
+    height: 50px;
+    background: #e05555;
+    border-radius: 50%;
+}
+
+#gray2 {
+    position: absolute;
+    border: 3px dashed cornflowerblue;
+    opacity: 0.3;
+    border-radius: 50%;
+}
+
+#blue2 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #5b77c6;
+    border-radius: 50%;
+}
+
+#container2 {
+    position: absolute;
+    left: 800px;
+    top: -130px;
+    width: 400px;
+    height: 200px;
+    border: 1px solid lightgrey
+}
+
+#function2 {
+    position: absolute;
+    top: -5px;
+    left: -15px;
+    width: 425px;
+    height: 224px;
+
+}
+
+#blue_point2 {
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    width: 10px;
+    height: 10px;
+    background: #668de7;
+    border-radius: 50%;
+}
+
+#myRange2 {
+    width: 240px;
+    top: 300px;
+    left: 800px;
+    background: #e08385;
+    border: #8d3c3c 2px ridge;
+
+}
+
+#selectbox {
+    position: absolute;
+    top: 297px;
+    left: 650px;
+    background-color: #a1bff1;
+    border: #5562ab 2px;
+}
+
+#setinfo2 {
+    position: absolute;
+    top: -100px;
+    left: -50px;
+}
+
+#mass {
+    position: absolute;
+    left: 260px;
+    width: 40px;
+    border: 2px ridge white;
+    border-radius: 3px;
+}
+
+#velo2 {
+    position: absolute;
+    left: 355px;
+    width: 50px;
+    border: 2px ridge white;
+    border-radius: 3px;
+}
+
+#boxtext1 {
+    position: absolute;
+    left: 590px;
+    top: 274px;
+}
+
+#slider2text1 {
+    position: absolute;
+    left: 750px;
+    top: 274px;
+}
+
+#slider2mark0 {
+    position: absolute;
+    left: 802px;
+    top: 298px;
+}
+
+#slider2mark1 {
+    position: absolute;
+    left: 820px;
+    top: 298px;
+}
+
+#slider2mark2 {
+    position: absolute;
+    left: 850px;
+    top: 298px;
+}
+
+#slider2mark3 {
+    position: absolute;
+    left: 882px;
+    top: 298px;
+}
+
+#slider2mark4 {
+    position: absolute;
+    left: 912px;
+    top: 298px;
+}
+
+#slider2mark5 {
+    position: absolute;
+    left: 940px;
+    top: 298px;
+}
+
+#slider2mark6 {
+    position: absolute;
+    left: 972px;
+    top: 298px;
+}
+
+#slider2mark7 {
+    position: absolute;
+    left: 1003px;
+    top: 298px;
+}
+
+#slider2mark8 {
+    position: absolute;
+    left: 1035px;
+    top: 298px;
+}
+
+
+#combine3 {
+    position: absolute;
+    left: 100px;
+}
+
+#red3 {
+    position: absolute;
+    left: 400px;
+    width: 50px;
+    height: 50px;
+    background: #e05555;
+    border-radius: 50%;
+}
+
+#graycircle1 {
+    position: absolute;
+    border: 3px dashed #000000;
+    opacity: 0.5;
+    border-radius: 50%;
+}
+
+#graycircle2 {
+    position: absolute;
+    border: 3px dashed #1f1f1f;
+    opacity: 0.5;
+    border-radius: 50%;
+}
+
+#blue3 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #5b77c6;
+    border-radius: 50%;
+}
+
+#arrow1 {
+    position: absolute;
+    color: #63a8ff;
+    width: 50px;
+    height: 30px;
+    top:115px;
+}
+#arrow2 {
+    position: absolute;
+    color: #63a8ff;
+    width: 50px;
+    height: 30px;
+    top:-230px;
+}
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 16px;
+    white-space:normal;word-wrap:break-word;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #000000;
+    background-color: #fff3f3;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 0 5px #999;
+}
+
+.button:hover {
+    background-color: #fff3f3
+}
+
+.button:active {
+    background-color: #ede1e1;
+    box-shadow: 0 3px #666;
+    transform: translateY(4px);
+}
+
+#myCanvas {
+    position: absolute;
+    left: -200px;
+    top: -200px;
+}
+
+#button1 {
+    position: absolute;
+    width:260px;
+    height: 50px;
+    left: 200px;
+    top: 280px;
+}
+
+#button2 {
+    position: absolute;
+    width:280px;
+    height: 80px;
+    left: 500px;
+    top: 260px;
+}
+#button3{
+    position: absolute;
+    width:100px;
+    left: 850px;
+    top:280px;
+    color: #fff3f3;
+    background-color: #1f1f1f;
+}
+
+#v3text1{
+    position: absolute;
+    width:300px;
+    height: 200px;
+    white-space:normal;word-wrap:break-word;
+    left: 300px;
+    top:-100px;
+}
+
+#v3text2 {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    white-space: normal;
+    word-wrap: break-word;
+    left: 300px;
+    top: 130px;
+}
+
+#ruler {
+    position: absolute;
+    width:50px;
+    height:450px;
+    left: 150px;
+    top:-200px;
+}
